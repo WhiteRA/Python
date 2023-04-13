@@ -4,6 +4,7 @@ print ((int(a / 100))+(int((a % 100) / 10))+(int(a % 10)))
 a = int(input())
 print((a//6), ((a//6)*4), (a//6))
 
+
 a = int(385967)
 q = int(a % 10)
 w = int(a % 100 /10)
@@ -18,6 +19,7 @@ if z == n:
 else:
     print('NO')
 
+    
 n = int(input())
 m = int(input())
 k = int(input())
@@ -25,3 +27,14 @@ if k < n * m and ((k % n == 0) or (k % m == 0)):
     print('YES')
 else:
     print('NO')
+
+
+q = int(input("Степень - "))
+a = int(input('Число - '))
+i = 1
+print(1)
+while i <= q:
+    i *= a
+    if i>=q:
+        break
+    print(i)
