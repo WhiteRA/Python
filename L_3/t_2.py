@@ -7,5 +7,8 @@ print(list_0)
 
 for j in range(q + 1):
     if list_0[j] == w:
-        print(f"Самые близкие по величине элемент {list_0[j - 1]} и {list_0[j + 1]}")
-        break
+        print(f"Самые близкие по величине элемент {list_0[j + 1]}")
+    else:
+        if list_0[j] < w:
+            print(f"Самые близкие по величине элемент {list_0[j - 1]}")
+            break
