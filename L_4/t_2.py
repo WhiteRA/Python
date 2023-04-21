@@ -1,5 +1,6 @@
 from random import randint
 
+# Использовал рандомайзер для красоты
 list_0 = []
 q = int(input("Колличество кустов - "))
 print()
