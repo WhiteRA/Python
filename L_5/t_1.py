@@ -1,5 +1,5 @@
-a = int(input("Число - "))
-b = int(input("Степень - "))
+a = int(input(" Число - "))
+b = int(input(" Степень - "))
 
 
 def level(a, b):
