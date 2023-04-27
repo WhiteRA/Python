@@ -1,5 +1,5 @@
-a = int(input("Первое - "))
-b = int(input("Второе - "))
+a = int(input(" Первое - "))
+b = int(input(" Второе - "))
 
 
 def sum(a, b):
