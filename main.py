@@ -9,9 +9,12 @@ for i in range(len(q)):
 a = 5050 - a
 print(a)
 """
+
+# Найдите повторяющееся число в заданном целочисленном массиве. Все остальные элементы массива различны.
 q = [int(i) for i in input().split()]
-q = sorted(q)
-print(q)
+a = []
 for i in range(len(q)):
-    if q[i] == q[i + 1] and i < len(q):
-        print(q[i])
+    if q.count(i) > 1:
+        if i not in a:
+            a.append(i)
+print(a)
